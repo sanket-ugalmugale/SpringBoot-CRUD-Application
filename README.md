@@ -159,13 +159,6 @@ Your actual package and folder names may differ.
 - Testing REST APIs with Postman
 - Managing project dependencies with Maven
 
-## Future Improvements
-
-- Add request validation and global exception handling
-- Add pagination and sorting
-- Add unit and integration tests
-- Add authentication and authorization
-
 ## Author
 
 Sanket Ugalmugale
