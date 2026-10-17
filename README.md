@@ -159,11 +159,5 @@ Your actual package and folder names may differ.
 - Testing REST APIs with Postman
 - Managing project dependencies with Maven
 
-## Author
 
-Sanket Ugalmugale
-
-GitHub: [sanket-ugalmugale](https://github.com/sanket-ugalmugale)
-
----
 
