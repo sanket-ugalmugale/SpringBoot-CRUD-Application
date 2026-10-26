@@ -42,8 +42,8 @@ Install the following before running the project:
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/<your-username>/<your-repository-name>.git
-cd <your-repository-name>
+git clone https://github.com/sanket-ugalmugale/SpringBoot-CRUD-Application.git
+cd SpringBoot-CRUD-Application
 ```
 
 Replace the URL and repository name with your own GitHub details.
@@ -64,16 +64,12 @@ Add or update these properties in `src/main/resources/application.properties`:
 
 ```properties
 spring.datasource.url=jdbc:mysql://localhost:3306/student_db
-spring.datasource.username=YOUR_MYSQL_USERNAME
-spring.datasource.password=YOUR_MYSQL_PASSWORD
+spring.datasource.username=root
+spring.datasource.password=root
 
 spring.jpa.hibernate.ddl-auto=update
 spring.jpa.show-sql=true
 ```
-
-Replace `YOUR_MYSQL_USERNAME` and `YOUR_MYSQL_PASSWORD` with your local MySQL credentials. Make sure the database name matches the one you created.
-
-**Security note:** Do not commit real database passwords or other secrets to GitHub. For a public repository, use environment variables or a local configuration file excluded from version control.
 
 ### 4. Run the application
 
